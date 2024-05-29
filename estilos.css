@@ -1,0 +1,48 @@
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    background-color: #7fffd4;
+    color: white;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #7fffd4;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    display: inline;
+    text-decoration: none;
+    margin: 20px;
+
+}
+
+a :hover{
+    background-color: aqua;
+    border: 1px solid black; 
+    border-radius: 5px;
+}
+
+.contenedor__video{
+    position: relative;
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+}
+
+.contenedor__video video{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
